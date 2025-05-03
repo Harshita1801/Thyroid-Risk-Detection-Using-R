@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7a3cd0b3-8203-4113-b969-88cefdfbdbf7)# Thyroid Risk Detection Using R
+# Thyroid Risk Detection Using R
 
 # Problem statement
 Thyroid disorders occur when the thyroid gland produces abnormal levels of hormones (T3 & T4), affecting metabolism. Thyroid disorders are of 3 types compensated hypothyroid, primary hypothyroid, secondary hypothyroid. 
@@ -19,6 +19,7 @@ Class Distribution:
       Secondary Hypothyroid → 2 samples
 
 # Data Preprocessing
+
 # Handling Missing Values
 Some features (T3, TT4, T4U, FTI, TBG) have missing values, which can affect model performance.
 Missing values are not removed to prevent data loss; instead, they are imputed (filled in) using KNN imputation.
@@ -31,6 +32,7 @@ Training Set → Used to train the machine learning model.
 Testing Set → Used to measure how well the model generalizes to unseen data.
 
 # Machine Learning Models Used
+
 # Logistic Regression
 A simple, interpretable model used for classification problems. Suitable for binary and multi-class classification tasks like thyroid risk detection.
 # Random Forest
